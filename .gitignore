@@ -1,0 +1,85 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Gradle files
+.gradle/
+build/
+!gradle-wrapper.jar
+*.iml
+*.hprof
+
+# Local configuration file (SDK location, etc.)
+local.properties
+
+# Log files
+*.log
+
+# Android Studio files
+.idea/
+*.apk
+*.ap_
+*.cxx/
+*.db/
+*.db-wal/
+*.db-shm/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Generated files
+gen/
+bin/
+out/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Proguard
+proguard/
+proguard-rules.pro
+
+# Kotlin build folders
+.kotlin/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Miscellaneous
+*.orig
+*.swp
+*.lock
+*.tmp
+*.bak
+*.class
+*.un~
+*.swo
+*.DS_Store
+.idea/caches/build_file_checksums.ser
+
+# JetBrains project-specific files
+.idea/workspace.xml
+.idea/libraries/
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/gradle.xml
+.idea/modules.xml
+
+# Exclude sensitive data
+**/secrets.properties
+**/google-services.json
